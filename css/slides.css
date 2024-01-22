@@ -1285,9 +1285,7 @@ p.uppercase, .p.uppercase,
     max-width: calc(50% + 1px) !important;
     margin-left: -1px;
   }
-  .figure{
-    margin-left: 11rem;
-  }
+  
 }
 .slides-form.center input, .slides-form.center textarea {
   text-align: center;
@@ -1823,9 +1821,7 @@ html:not(.mobile) .slide.video .background[style] {
   .showForPhabletInline {
     display: inline !important;
   }
-  .figure{
-    margin-left: 11rem;
-  }
+  
   
 }
 /* phone portrait and smaller */
@@ -2541,9 +2537,7 @@ html.mobile .showForMobileInline {
     width: 17px;
     height: 40px;
   }
-  .figure{
-    margin-left: 13rem;
-  }
+  
 }
 
 /* End of Side */
