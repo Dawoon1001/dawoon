@@ -288,6 +288,9 @@ blockquote.tiny {
   font-weight: 400;
   padding: 0 0 90px;
 }
+p.vdw{
+  padding: 0 0 40px;
+}
 p.micro,
 .p.micro,
 blockquote.micro {
@@ -312,7 +315,14 @@ small .small {
 }
 
 .fix-10-12 h1{
-  margin-bottom: 10rem;
+  margin-bottom: 13rem;
+}
+
+.fix-12-12 img{
+  transition: all 0.2s linear;
+}
+.fix-12-12 img:hover{
+  transform: scale(1.05);
 }
 
 
