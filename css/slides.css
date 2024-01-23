@@ -1569,7 +1569,7 @@ figure
 .b_img:hover img{
   /* transform: scale(1.05); */
   transition: all 0.2s linear;
-  filter: brightness(50%);
+  filter: brightness(30%);
   
 }
 .hover_text{
