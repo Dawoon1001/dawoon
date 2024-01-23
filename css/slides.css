@@ -318,12 +318,7 @@ small .small {
   margin-bottom: 13rem;
 }
 
-.fix-12-12 img{
-  transition: all 0.2s linear;
-}
-.fix-12-12 img:hover{
-  transform: scale(1.05);
-}
+
 
 
 /* bullets */
@@ -1533,12 +1528,59 @@ figure
 .sidebarTrigger {
   cursor: pointer;
 }
+.fix-12-12 img{
+  transition: all 0.2s linear;
+}
+.fix-12-12 img:hover{
+  transform: scale(1.05);
+  filter: brightness(30%);
+}
 .blo:hover{
   transform: scale(1.05);
   transition: all 0.2s linear;
-  filter: brightness(60%);
+  
 }
-
+.b_img{
+  display: inline-block;
+  position: relative;
+  border-radius: 10px;
+}
+.b_img:hover:after,
+.b_img:hover>.hover_text{
+  display: block;
+}
+.b_img:after,
+.hover_text{
+  display: none;
+}
+.b_img:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* background: rgba(0, 0, 0, 0.3); */
+  z-index: 10;
+}
+.b_img{
+  overflow: hidden;
+}
+.b_img:hover img{
+  /* transform: scale(1.05); */
+  transition: all 0.2s linear;
+  filter: brightness(50%);
+  
+}
+.hover_text{
+  position: absolute;
+  top: 140px;
+  left: 25px;
+  color: #fff;
+  z-index: 20;
+  font-weight: 100;
+  font-size: 15px;
+}
 .profile{
   display: inline-flex;
   position: relative;
