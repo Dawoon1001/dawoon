@@ -1533,6 +1533,12 @@ figure
 .sidebarTrigger {
   cursor: pointer;
 }
+.blo:hover{
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+  filter: brightness(60%);
+}
+
 .profile{
   display: inline-flex;
   position: relative;
