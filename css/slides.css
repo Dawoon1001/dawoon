@@ -1533,6 +1533,20 @@ figure
 .sidebarTrigger {
   cursor: pointer;
 }
+.profile{
+  display: inline-flex;
+  position: relative;
+}
+.profile .hover{
+  position: absolute;
+  opacity: 0;
+}
+.profile:hover img.profile.main{
+  opacity: 0;
+}
+.profile:hover img.profile2.hover{
+  opacity: 1;
+}
 .figure{
   position: relative;
   width: 452px;
