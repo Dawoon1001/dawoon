@@ -1587,7 +1587,7 @@ figure
 .b_img:hover img{
   /* transform: scale(1.05); */
   transition: all 0.2s linear;
-  filter: brightness(30%);
+  filter: brightness(23%);
   
 }
 .b_img figcaption{
