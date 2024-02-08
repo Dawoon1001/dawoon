@@ -1560,13 +1560,15 @@ figure
   border-radius: 10px;
 }
 .b_img:hover:after,
-.b_img:hover>.hover_text{
+.b_img:hover>.hover_text,
+.b_img:hover>figcaption {
   display: block;
   align-items: center;
   font-size: small;
 }
 .b_img:after,
-.hover_text{
+.hover_text,
+.b_img figcaption{
   display: none;
 }
 .b_img:after{
@@ -1588,6 +1590,25 @@ figure
   filter: brightness(30%);
   
 }
+.b_img figcaption{
+  color: #fff;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  position: absolute;
+  bottom: 0;
+  left: -200px;
+  width: 100%;
+  padding: 0;
+  transition: all 0.2s linear;
+}
+.b_img:hover figcaption{
+  left: 0;
+}
+.b_img figcaption p{
+  font-size: 12px;
+  /* text-shadow: 2px 2px 5px #000; */
+}
+
+
 .hover_text{
   position: absolute;
   top: 110px;
